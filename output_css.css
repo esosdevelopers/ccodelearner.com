@@ -5,7 +5,8 @@
 	 font-size: 62.5%;
 }
  .wrapper {
-	
+	overflow: auto;
+  white-space: nowrap;
 	 height: 90vh;
 }
  .terminal {

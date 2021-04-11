@@ -5,8 +5,7 @@
 	 font-size: 62.5%;
 }
  .wrapper {
-	overflow: auto;
-  white-space: nowrap;
+
 	 height: 90vh;
 }
  .terminal {
@@ -17,6 +16,8 @@
 	 font-size: calc(1.2*1rem);
 	 font-family: Consolas, monaco, monospace;
 	 box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, .6);
+	 	overflow: auto;
+  white-space: nowrap;
 }
  .terminal__header {
 	 width: calc(100% - 1px);

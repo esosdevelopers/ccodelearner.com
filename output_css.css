@@ -16,8 +16,8 @@
 	 font-size: calc(1.2*1rem);
 	 font-family: Consolas, monaco, monospace;
 	 box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, .6);
-	 	overflow: auto;
-  white-space: nowrap;
+	 scroll-direction: horizontal;
+	 	
 }
  .terminal__header {
 	 width: calc(100% - 1px);
@@ -60,6 +60,7 @@
 	 border-bottom-left-radius: 0.3rem;
 	 border-bottom-right-radius: 0.3rem;
 	 overflow: scroll;
+	 scroll-direction: horizontal;
 }
  .terminal__content-block {
 	 padding: 0.5rem;

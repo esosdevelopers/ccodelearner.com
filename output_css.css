@@ -27,6 +27,7 @@
 	 border-top-right-radius: 0.3rem;
 	 border: 0.5px solid #b8b8b8;
 	 border-bottom: 1px solid #b8b8b8;
+	 scroll-direction: horizontal;
 }
  .terminal__header-buttons {
 	 position: relative;

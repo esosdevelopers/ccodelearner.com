@@ -1,0 +1,8 @@
+.terminal_output {
+  width: 100%;
+  height: 100%;
+  background-color: #323232;
+  font-size: calc(1.2*1rem);
+  font-family: Consolas, monaco, monospace;
+  color: green;
+  white-space: pre-wrap; 
